@@ -7,6 +7,13 @@
 header {
   text-align: left;
   padding: 1%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+#menu {
+  text-decoration: none;
 }
 
 #slide {
