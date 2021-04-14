@@ -1,24 +1,100 @@
 *{
     padding: 0;
     margin: 0;
-    text-align: center;
 }
 
 header{
-    text-align: left;
-    padding: 1%;
+    padding: 10px 25px;
     display: inline-flex;
 }
 
+#logo{
+    padding-right: 60px;
+}
+
+#options{
+    padding: 10px 0;
+}
+
 #menu{
+    padding: 10px 15px 10px 90px;
+}
+
+header a{
     text-decoration: none;
+    color: #000000;
+    padding: 0 5px;
+
+}
+
+#body{
+    text-align: center;
 }
 
 #slide{
     background-color: #5d5d5d;
     margin: 20px 0;
-    padding: 100px 0;
+    padding: 150px 0 0 0;
     font-size: 40px;
+}
+
+.slider {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #fdfdfd;
+    bottom: -150px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.slider li:nth-child(1) label {
+    left: 100px;
+}
+
+.slider li:nth-child(2) label {
+    left: 140px;
+}
+
+.slider li:nth-child(3) label {
+    left: 180px;
+    bottom: -149px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
 }
 
 #propaganda_01{
