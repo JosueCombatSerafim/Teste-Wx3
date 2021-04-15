@@ -272,7 +272,8 @@ header a {
 }
 
 footer {
-  padding: 70px 0 20px 0;
+  padding: 50px 0 20px 0;
+  text-align: center;
 }
 
 #footer_01 {
@@ -290,7 +291,7 @@ footer {
 }
 
 #footer_01 p {
-  padding-top: 10px;
+  padding: 20px 0 100px 0;
   color: #ffffff;
   font-size: 20px;
 }
@@ -310,5 +311,54 @@ form button {
   border: none;
   height: 34px;
   width: 150px;
+}
+
+#footer_02 {
+  width: 78%;
+  margin-left: 10%;
+  background-color: #ffffff;
+  padding: 25px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 65% 35%;
+      grid-template-columns: 65% 35%;
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
+}
+
+#f02_a {
+  background-color: #5a5a5a;
+  padding: 70px 0;
+  margin-right: 30px;
+}
+
+#f02_b {
+  background-color: rgba(12, 117, 12, 0.527);
+  padding: 70px 0;
+  margin-left: 30px;
+}
+
+#footer_04 {
+  padding: 40px 0;
+  margin: 0 6%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+#footer_04 h1 {
+  font-size: 22px;
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+#footer_04 a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+#footer_04 p {
+  color: #5a5a5a;
 }
 /*# sourceMappingURL=style.css.map */
