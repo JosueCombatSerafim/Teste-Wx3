@@ -24,9 +24,9 @@ header {
   padding: 10px 15px 10px 30px;
 }
 
-#menu a img {
-  height: 60%;
-  margin: 0 5px;
+#menu img {
+  height: 70%;
+  margin: 0 7px;
 }
 
 header a {
@@ -110,11 +110,6 @@ header a {
   z-index: 10;
 }
 
-.slider_produtos {
-  text-align: right;
-  padding-right: 5%;
-}
-
 #lancamentos {
   padding: 25px 0;
 }
@@ -162,6 +157,7 @@ header a {
   font-weight: 500;
 }
 
+<<<<<<< HEAD
 .grupo01 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -176,6 +172,13 @@ header a {
   display: none;
 }
 
+=======
+/*
+.product_slider {
+    
+}
+*/
+>>>>>>> parent of 1f775ef (sliders 90%)
 #propaganda_01 {
   padding: 30px 5%;
   background-color: #000000;
