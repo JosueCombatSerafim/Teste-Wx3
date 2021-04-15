@@ -5,9 +5,10 @@
 
 header {
   padding: 10px 25px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
 }
 
 #logo {
@@ -151,8 +152,63 @@ header a {
 }
 
 #propaganda_02 {
+  text-align: left;
+  padding: 40px 100px;
   background-color: #000000;
-  color: white;
+  color: #ffffff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+#propaganda_02 input {
+  background-color: transparent;
+  border-color: #ffffff;
+  padding: 2px 25px;
+  color: #ffffff;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+#propaganda_02 h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 150px;
+  font-weight: 100;
+}
+
+#propaganda_02 p {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+#camisolas {
+  background-color: #5a5a5a;
+  margin-right: 10px;
+  padding-top: 660px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+#col2 {
+  margin-left: 15px;
+}
+
+#linha_noite {
+  background-color: #5a5a5a;
+  margin-bottom: 30px;
+  padding-top: 160px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+}
+
+#sutias {
+  background-color: #5a5a5a;
+  margin-top: 30px;
+  padding-top: 160px;
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 
 #banner_fixo {
