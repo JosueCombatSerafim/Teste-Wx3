@@ -8,8 +8,8 @@ header {
   padding: 10px 25px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20% 60% 20%;
-      grid-template-columns: 20% 60% 20%;
+  -ms-grid-columns: 9% 65% 26%;
+      grid-template-columns: 9% 65% 26%;
 }
 
 #logo {
@@ -21,7 +21,12 @@ header {
 }
 
 #menu {
-  padding: 10px 15px 10px 90px;
+  padding: 10px 15px 10px 30px;
+}
+
+#menu img {
+  height: 70%;
+  margin: 0 7px;
 }
 
 header a {
@@ -105,10 +110,15 @@ header a {
   z-index: 10;
 }
 
+#lancamentos {
+  padding: 25px 0;
+}
+
 .produtos {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  padding-top: 20px;
 }
 
 .produto_div {
@@ -147,6 +157,11 @@ header a {
   font-weight: 500;
 }
 
+/*
+.product_slider {
+    
+}
+*/
 #propaganda_01 {
   padding: 30px 5%;
   background-color: #000000;
@@ -177,6 +192,10 @@ header a {
 
 #img04 {
   margin-bottom: 36px;
+}
+
+#destaques {
+  padding: 25px 0;
 }
 
 #propaganda_02 {
@@ -238,6 +257,10 @@ header a {
   padding-bottom: 15px;
 }
 
+#outlet {
+  padding: 25px 0;
+}
+
 #banner_fixo {
   margin: 20px 0 70px 0;
   padding: 250px 0;
@@ -261,6 +284,10 @@ header a {
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 50px;
   color: #767676;
+}
+
+#depoimentos img {
+  height: 80%;
 }
 
 .depoimento_layout {
@@ -303,6 +330,7 @@ form {
 form input {
   height: 30px;
   width: 250px;
+  padding-left: 10px;
 }
 
 form button {
@@ -322,8 +350,8 @@ form button {
   display: grid;
   -ms-grid-columns: 65% 35%;
       grid-template-columns: 65% 35%;
-  -webkit-transform: translateY(-30%);
-          transform: translateY(-30%);
+  -webkit-transform: translateY(-35%);
+          transform: translateY(-35%);
 }
 
 #f02_a {
@@ -333,7 +361,6 @@ form button {
 }
 
 #f02_b {
-  background-color: rgba(12, 117, 12, 0.527);
   padding: 70px 0;
   margin-left: 30px;
 }
@@ -360,5 +387,20 @@ form button {
 
 #footer_04 p {
   color: #5a5a5a;
+}
+
+#seguranca_img {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+#footer_05 {
+  color: #5a5a5a;
+  padding-bottom: 15px;
+}
+
+#footer_05 hr {
+  border: 1px solid #5a5a5a;
+  margin: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */

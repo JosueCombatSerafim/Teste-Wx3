@@ -27,9 +27,9 @@
         </div>
 
         <div id="menu">
-            <a href="#">P</a>
+            <a href="#"><img src="img/pesquisa.jpg"></a>
             <a href="#">L</a>
-            <a href="#">Login | Cadastre-se</a>
+            <img src="img/cadastro.jpg"> <a href="#">Login</a> | <a href="#">Cadastre-se</a>
             <a href="#"></a>
         </div>
     </header>
@@ -39,23 +39,23 @@
             <ul class="slider">
                 <li>
                       <input type="radio" id="slide1" name="slide" checked>
-                      <label for="slide1"></label>
+                      <label for="slide1" id="label1"></label>
                       <img src="img/img01.png" alt="1"/>
                 </li>
                 <li>
                       <input type="radio" id="slide2" name="slide">
-                      <label for="slide2"></label>
+                      <label for="slide2" id="label2"></label>
                       <img src="img/img02.png" alt="2"/>
                 </li>
                 <li>
                       <input type="radio" id="slide3" name="slide">
-                      <label for="slide3"></label>
+                      <label for="slide3" id="label3"></label>
                       <img src="img/img03.png" alt="3"/>
                 </li>
             </ul>
         </div>
 
-        <div id="lançamentos">
+        <div id="lancamentos">
             <h1>Lançamentos</h1>
 
             <div>
@@ -205,6 +205,49 @@
         <div id="destaques">
             <h1>Destaques</h1>
             
+            <div>
+                <ul class="product_slider">
+                    <li class="produtos">
+                        <div class="produto_div">
+                            <img src="img/produto01.jpg" alt="produto_01">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+
+                        <div class="produto_div">
+                            <img src="img/produto02.jpg" alt="produto_02">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+
+                        <div class="produto_div">
+                            <img src="img/produto03.jpg" alt="produto_03">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+
+                        <div class="produto_div">
+                            <img src="img/produto04.jpg" alt="produto_04">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>    
+
+            <a href="#" class="mais">Ver todos</a>
             
 
         </div>
@@ -233,7 +276,49 @@
         <div id="outlet">
             <h1>Outlet</h1>
             
-            
+            <div>
+                <ul class="product_slider">
+                    <li class="produtos">
+                        <div class="produto_div">
+                            <img src="img/produto01.jpg" alt="produto_01">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+
+                        <div class="produto_div">
+                            <img src="img/produto02.jpg" alt="produto_02">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+
+                        <div class="produto_div">
+                            <img src="img/produto03.jpg" alt="produto_03">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+
+                        <div class="produto_div">
+                            <img src="img/produto04.jpg" alt="produto_04">
+                            <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
+                            <p class="ref">Ref.: pdc202</p>
+                            <h2 class="preco">R$ 55,90</h2>
+                            <p class="descricao_1">no boleto</p>
+                            <p class="descricao_2">em até 10X de 6,30</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>    
+
+            <a href="#" class="mais">Ver todos</a>
 
         </div>
 
@@ -278,8 +363,8 @@
             </div>
 
             <form>
-                <input type="text" name="nome" id="nome">
-                <input type="email" name="email" id="email">
+                <input type="text" name="nome" id="nome" placeholder="NOME">
+                <input type="email" name="email" id="email" placeholder="E-MAIL">
                 <button>CADASTRAR</button>
             </form>
         </div>
@@ -331,12 +416,32 @@
             <div>
                 <h1>Segurança e qualidada</h1>
                 <img src="img/seguranca_e_qualidade_01.jpg" alt="qualidade">
-                <img src="img/seguranca_e_qualidade_02.jpg" alt="segurança">
+                <img src="img/seguranca_e_qualidade_02.jpg" alt="segurança" id="seguranca_img">
             </div>
         </div>
+
+        <div id="footer_05">
+            <hr>
+            
+            <p><strong>LOREM IPSUM COMÉRCIO DE VERTUÁRIO LTDA. | CNPJ:01.111.000/0001-01 / RUA DAS COVES, CENTRO, NOVA FRIBURGO / RJ - 26.600-000</strong></p>
+
+            <hr>
+
+            <p>Preços e condições de pagamento exclusivos para compras via internet. Ofertas válidas até o término de nossos estoques para internet. Vendas sujeitas à análise e<br>confirmação de dados. Em caso de divergência de preços no site, o valor é o do Carrinho de Compras.</p>
+        </div>
+
+
     </footer>
 
     <script>
+        slide1
+
+
+        $('#slide1').on("check", slide1)
+
+        function slide1(){
+            $('#label1').css('backgroundo-color' : 'blue');
+        }
 
     </script>
 </body>
