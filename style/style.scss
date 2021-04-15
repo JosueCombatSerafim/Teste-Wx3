@@ -23,9 +23,9 @@ header{
 }
 
 
-#menu img{
-    height: 70%;
-    margin: 0 7px;
+#menu a img{
+    height: 60%;
+    margin: 0 5px;
 }
 
 
@@ -111,6 +111,11 @@ header a{
     z-index: 10;
 }
 
+.slider_produtos{
+    text-align: right;
+    padding-right: 5%;
+}
+
 #lancamentos{
     padding: 25px 0;
 }
@@ -156,11 +161,17 @@ header a{
     font-weight: 500;
 }
 
-/*
-.product_slider {
-    
+#grupo01{
+    display: inline-flex;
 }
-*/
+
+#grupo02{
+    display: none;
+}
+
+#grupo03{
+    display: none;
+}
 
 #propaganda_01{
     padding: 30px 5%;
