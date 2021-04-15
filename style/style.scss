@@ -150,11 +150,13 @@ header a{
 #propaganda_01{
     background-color: #000000;
     color: white;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 #propaganda_02{
     text-align: left;
-    padding: 40px 100px;
+    padding: 70px 100px;
     background-color: #000000;
     color: #ffffff;
     display: grid;
