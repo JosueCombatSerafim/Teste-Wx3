@@ -32,6 +32,11 @@ header a {
   text-align: center;
 }
 
+#body a {
+  text-decoration: none;
+  color: #000000;
+}
+
 #slide {
   background-color: #5d5d5d;
   margin: 20px 0;
@@ -102,6 +107,42 @@ header a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+}
+
+.produto_div {
+  margin: 10px 0;
+}
+
+.produtos img {
+  height: 70%;
+}
+
+.nome_produtos {
+  font-weight: 100;
+  font-size: 22px;
+}
+
+.ref {
+  margin-bottom: 10px;
+}
+
+.preco {
+  font-size: 22px;
+  color: red;
+}
+
+.descricao_1 {
+  color: red;
+}
+
+.descricao_2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.mais {
+  font-size: 22px;
+  font-weight: 500;
 }
 
 #propaganda_01 {
