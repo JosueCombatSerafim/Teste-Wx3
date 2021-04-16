@@ -166,6 +166,17 @@ header a {
   font-weight: 500;
 }
 
+.button_comprar {
+  display: none;
+  margin: 10px 5%;
+  padding: 10px 24%;
+  background-color: #5a5a5a;
+  border: none;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+
 #grupo01 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
