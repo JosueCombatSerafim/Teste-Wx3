@@ -38,17 +38,17 @@
         <div id="slide">
             <ul class="slider">
                 <li>
-                      <input type="radio" id="slide1" name="slide" checked>
+                      <input type="radio" id="slide1" name="slide" checked onclick="slide_banner1()">
                       <label for="slide1" id="label1"></label>
                       <img src="img/img01.png" alt="1"/>
                 </li>
                 <li>
-                      <input type="radio" id="slide2" name="slide">
+                      <input type="radio" id="slide2" name="slide" onclick="slide_banner2()">
                       <label for="slide2" id="label2"></label>
                       <img src="img/img02.png" alt="2"/>
                 </li>
                 <li>
-                      <input type="radio" id="slide3" name="slide">
+                      <input type="radio" id="slide3" name="slide" onclick="slide_banner3()">
                       <label for="slide3" id="label3"></label>
                       <img src="img/img03.png" alt="3"/>
                 </li>
@@ -506,7 +506,7 @@
             <h1>Depoimentos</h1>
             <h2>O que os nossos clientes estão dizendo</h2>
             <ul>
-                <li class="depoimento_layout">
+                <li class="depoimento_layout" id="dep_01">
                     <div>
                         <img src="img/depoimento01.jpg" alt="depoimento01">
                     </div>
@@ -520,8 +520,88 @@
                     </div>
                 </li>
 
-                
+                <li class="depoimento_layout" id="dep_02">
+                    <div>
+                        <img src="img/depoimento02.jpg" alt="depoimento01">
+                    </div>
+
+                    <div>
+                        <img src="img/depoimento03.jpg" alt="depoimento02">
+                    </div>
+                    
+                    <div>
+                        <img src="img/depoimento01.jpg" alt="depoimento03">
+                    </div>
+                </li>
+
+                <li class="depoimento_layout" id="dep_03">
+                    <div>
+                        <img src="img/depoimento03.jpg" alt="depoimento01">
+                    </div>
+
+                    <div>
+                        <img src="img/depoimento01.jpg" alt="depoimento02">
+                    </div>
+                    
+                    <div>
+                        <img src="img/depoimento02.jpg" alt="depoimento03">
+                    </div>
+                </li>
+
+                <li class="depoimento_layout" id="dep_04">
+                    <div>
+                        <img src="img/depoimento02.jpg" alt="depoimento01">
+                    </div>
+
+                    <div>
+                        <img src="img/depoimento01.jpg" alt="depoimento02">
+                    </div>
+                    
+                    <div>
+                        <img src="img/depoimento03.jpg" alt="depoimento03">
+                    </div>
+                </li>
+
+                <li class="depoimento_layout" id="dep_05">
+                    <div>
+                        <img src="img/depoimento01.jpg" alt="depoimento01">
+                    </div>
+
+                    <div>
+                        <img src="img/depoimento03.jpg" alt="depoimento02">
+                    </div>
+                    
+                    <div>
+                        <img src="img/depoimento02.jpg" alt="depoimento03">
+                    </div>
+                </li>
             </ul>
+
+            <div class="custom-radio">
+                <input type="radio" name="dep_slide" id="d_slide_1" onclick="muda_depoimentos_1()" checked>
+                <label for="d_slide_1"></label>
+            </div>
+
+            <div class="custom-radio">
+                <input type="radio" name="dep_slide" id="d_slide_2" onclick="muda_depoimentos_2()">
+                <label for="d_slide_2"></label>
+            </div>
+
+            <div class="custom-radio">
+                <input type="radio" name="dep_slide" id="d_slide_3" onclick="muda_depoimentos_3()">
+                <label for="d_slide_3"></label>
+            </div>
+
+            <div class="custom-radio">
+                <input type="radio" name="dep_slide" id="d_slide_4" onclick="muda_depoimentos_4()">
+                <label for="d_slide_4"></label>
+            </div>
+
+            <div class="custom-radio">
+                <input type="radio" name="dep_slide" id="d_slide_5" onclick="muda_depoimentos_5()">
+                <label for="d_slide_5"></label>
+            </div>
+
         </div>
 
     </div>
@@ -615,6 +695,26 @@
 
     <script>   
 
+    //Banner com slide
+
+    function slide_banner1(){
+        document.getElementById("label1").style.background="#000000"
+        document.getElementById("label2").style.background="#fdfdfd"
+        document.getElementById("label3").style.background="#fdfdfd"
+    }
+
+    function slide_banner2(){
+        document.getElementById("label1").style.background="#fdfdfd"
+        document.getElementById("label2").style.background="#000000"
+        document.getElementById("label3").style.background="#fdfdfd"
+    }
+
+    function slide_banner3(){
+        document.getElementById("label1").style.background="#fdfdfd"
+        document.getElementById("label2").style.background="#fdfdfd"
+        document.getElementById("label3").style.background="#000000"
+    }
+
     //Primeiro grupo de produtos
 
     function muda1(){
@@ -675,7 +775,49 @@
         document.getElementById("grupo01_b").style.display="none";
         document.getElementById("grupo02_b").style.display="none";
         document.getElementById("grupo03_b").style.display="inline-flex";
-    } 
+    }
+    
+    //Depoimentos
+
+    function muda_depoimentos_1(){
+        document.getElementById("dep_01").style.display="grid"
+        document.getElementById("dep_02").style.display="none"
+        document.getElementById("dep_03").style.display="none"
+        document.getElementById("dep_04").style.display="none"
+        document.getElementById("dep_05").style.display="none"
+    }
+
+    function muda_depoimentos_2(){
+        document.getElementById("dep_01").style.display="none"
+        document.getElementById("dep_02").style.display="grid"
+        document.getElementById("dep_03").style.display="none"
+        document.getElementById("dep_04").style.display="none"
+        document.getElementById("dep_05").style.display="none"
+    }
+
+    function muda_depoimentos_3(){
+        document.getElementById("dep_01").style.display="none"
+        document.getElementById("dep_02").style.display="none"
+        document.getElementById("dep_03").style.display="grid"
+        document.getElementById("dep_04").style.display="none"
+        document.getElementById("dep_05").style.display="none"
+    }
+
+    function muda_depoimentos_4(){
+        document.getElementById("dep_01").style.display="none"
+        document.getElementById("dep_02").style.display="none"
+        document.getElementById("dep_03").style.display="none"
+        document.getElementById("dep_04").style.display="grid"
+        document.getElementById("dep_05").style.display="none"
+    }
+
+    function muda_depoimentos_5(){
+        document.getElementById("dep_01").style.display="none"
+        document.getElementById("dep_02").style.display="none"
+        document.getElementById("dep_03").style.display="none"
+        document.getElementById("dep_04").style.display="none"
+        document.getElementById("dep_05").style.display="grid"
+    }
 
     </script>
 </body>
