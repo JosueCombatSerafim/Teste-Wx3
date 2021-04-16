@@ -212,15 +212,15 @@
             <h1>Destaques</h1>
             
             <div class="slider_produtos">
-                <input type="radio" name="opcao1" class="opcao1" checked onclick="muda1()">
-                <input type="radio" name="opcao1" class="opcao2"  onclick="muda2()">
-                <input type="radio" name="opcao1" class="opcao3" onclick="muda3()">
+                <input type="radio" name="opcao1" class="opcao1" checked onclick="muda1_a()">
+                <input type="radio" name="opcao1" class="opcao2"  onclick="muda2_a()">
+                <input type="radio" name="opcao1" class="opcao3" onclick="muda3_a()">
 
             </div>
 
             <div>
                 <ul class="product_slider">
-                    <li class="produtos" id="grupo01">
+                    <li class="produtos" id="grupo01_a">
                         <div class="produto_div">
                             <img src="img/produto01.jpg" alt="produto_01">
                             <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
@@ -258,7 +258,7 @@
                         </div>
                     </li>
                     
-                    <li class="produtos" id="grupo02">
+                    <li class="produtos" id="grupo02_a">
                         <div class="produto_div">
                             <img src="img/produto04.jpg" alt="produto_04">
                             <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
@@ -296,7 +296,7 @@
                         </div>
                     </li>
 
-                    <li class="produtos" id="grupo03">
+                    <li class="produtos" id="grupo03_a">
                         <div class="produto_div">
                             <img src="img/produto02.jpg" alt="produto_02">
                             <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
@@ -366,15 +366,15 @@
             <h1>Outlet</h1>
 
             <div class="slider_produtos">
-                <input type="radio" name="opcao2" class="opcao1" checked onclick="muda1()">
-                <input type="radio" name="opcao2" class="opcao2"  onclick="muda2()">
-                <input type="radio" name="opcao2" class="opcao3" onclick="muda3()">
+                <input type="radio" name="opcao2" class="opcao1" checked onclick="muda1_b()">
+                <input type="radio" name="opcao2" class="opcao2"  onclick="muda2_b()">
+                <input type="radio" name="opcao2" class="opcao3" onclick="muda3_b()">
 
             </div>
 
             <div>
                 <ul class="product_slider">
-                    <li class="produtos" id="grupo01">
+                    <li class="produtos" id="grupo01_b">
                         <div class="produto_div">
                             <img src="img/produto01.jpg" alt="produto_01">
                             <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
@@ -412,7 +412,7 @@
                         </div>
                     </li>
                     
-                    <li class="produtos" id="grupo02">
+                    <li class="produtos" id="grupo02_b">
                         <div class="produto_div">
                             <img src="img/produto04.jpg" alt="produto_04">
                             <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
@@ -450,7 +450,7 @@
                         </div>
                     </li>
 
-                    <li class="produtos" id="grupo03">
+                    <li class="produtos" id="grupo03_b">
                         <div class="produto_div">
                             <img src="img/produto02.jpg" alt="produto_02">
                             <h2 class="nome_produtos">Lorem ipsum dolor sit amet</h2>
@@ -555,7 +555,13 @@
 
         <div id="footer_03">
             <div>
-                F I YT
+                F
+            </div>
+            <div>
+                I
+            </div>
+            <div>
+                YT
             </div>
         </div>
 
@@ -632,43 +638,43 @@
 
     //Segundo grupo de produtos
 
-    function muda1_g2(){
-        document.getElementById("grupo01").style.display="inline-flex";
-        document.getElementById("grupo02").style.display="none";
-        document.getElementById("grupo03").style.display="none";
+    function muda1_a(){
+        document.getElementById("grupo01_a").style.display="inline-flex";
+        document.getElementById("grupo02_a").style.display="none";
+        document.getElementById("grupo03_a").style.display="none";
     }  
 
-    function muda2_g2(){
-        document.getElementById("grupo01").style.display="none";
-        document.getElementById("grupo02").style.display="inline-flex";
-        document.getElementById("grupo03").style.display="none";
+    function muda2_a(){
+        document.getElementById("grupo01_a").style.display="none";
+        document.getElementById("grupo02_a").style.display="inline-flex";
+        document.getElementById("grupo03_a").style.display="none";
     } 
 
-    function muda3_g2(){
-        document.getElementById("grupo01").style.display="none";
-        document.getElementById("grupo02").style.display="none";
-        document.getElementById("grupo03").style.display="inline-flex";
+    function muda3_a(){
+        document.getElementById("grupo01_a").style.display="none";
+        document.getElementById("grupo02_a").style.display="none";
+        document.getElementById("grupo03_a").style.display="inline-flex";
     } 
 
 
     //Terceiro grupo de produtos
 
-    function muda1_g3(){
-        document.getElementById("grupo01").style.display="inline-flex";
-        document.getElementById("grupo02").style.display="none";
-        document.getElementById("grupo03").style.display="none";
+    function muda1_b(){
+        document.getElementById("grupo01_b").style.display="inline-flex";
+        document.getElementById("grupo02_b").style.display="none";
+        document.getElementById("grupo03_b").style.display="none";
     }  
 
-    function muda2_g3(){
-        document.getElementById("grupo01").style.display="none";
-        document.getElementById("grupo02").style.display="inline-flex";
-        document.getElementById("grupo03").style.display="none";
+    function muda2_b(){
+        document.getElementById("grupo01_b").style.display="none";
+        document.getElementById("grupo02_b").style.display="inline-flex";
+        document.getElementById("grupo03_b").style.display="none";
     } 
 
-    function muda3_g3(){
-        document.getElementById("grupo01").style.display="none";
-        document.getElementById("grupo02").style.display="none";
-        document.getElementById("grupo03").style.display="inline-flex";
+    function muda3_b(){
+        document.getElementById("grupo01_b").style.display="none";
+        document.getElementById("grupo02_b").style.display="none";
+        document.getElementById("grupo03_b").style.display="inline-flex";
     } 
 
     </script>

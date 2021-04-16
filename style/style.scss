@@ -173,6 +173,30 @@ header a{
     display: none;
 }
 
+#grupo01_a{
+    display: inline-flex;
+}
+
+#grupo02_a{
+    display: none;
+}
+
+#grupo03_a{
+    display: none;
+}
+
+#grupo01_b{
+    display: inline-flex;
+}
+
+#grupo02_b{
+    display: none;
+}
+
+#grupo03_b{
+    display: none;
+}
+
 #propaganda_01{
     padding: 30px 5%;
     background-color: #000000;
@@ -364,6 +388,20 @@ form button{
     padding: 70px 0;
     margin-left: 30px;
 }
+
+#footer_03{
+    display: inline-flex;
+}
+
+#footer_03 div{
+    margin: 0 10px;
+    padding-top: 6px;
+    height: 24px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: #767676;
+}
+
 
 #footer_04{
     padding: 40px 0;
