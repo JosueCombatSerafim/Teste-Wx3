@@ -8,8 +8,8 @@ header {
   padding: 10px 25px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 9% 65% 26%;
-      grid-template-columns: 9% 65% 26%;
+  -ms-grid-columns: 9% 65% 27%;
+      grid-template-columns: 9% 65% 27%;
 }
 
 #logo {
@@ -21,7 +21,7 @@ header {
 }
 
 #menu {
-  padding: 10px 15px 10px 30px;
+  padding: 10px 0 10px 0;
 }
 
 #menu a img {
@@ -269,6 +269,7 @@ header a {
 #propaganda_02 input {
   background-color: transparent;
   border-color: #ffffff;
+  border-style: solid;
   padding: 2px 25px;
   color: #ffffff;
   font-weight: 800;
@@ -287,11 +288,12 @@ header a {
 }
 
 #camisolas {
-  background-color: #5a5a5a;
   margin-right: 10px;
   padding-top: 660px;
   padding-left: 15px;
   padding-bottom: 15px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5a5a5a), to(#111111));
+  background-image: linear-gradient(to bottom, #5a5a5a, #111111);
 }
 
 #col2 {
@@ -299,15 +301,17 @@ header a {
 }
 
 #linha_noite {
-  background-color: #5a5a5a;
   margin-bottom: 30px;
   padding-top: 160px;
   padding-left: 10px;
   padding-bottom: 30px;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#5a5a5a), to(#111111));
+  background-image: linear-gradient(to bottom left, #5a5a5a, #111111);
 }
 
 #sutias {
-  background-color: #5a5a5a;
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#5a5a5a), to(#111111));
+  background-image: linear-gradient(to bottom left, #5a5a5a, #111111);
   margin-top: 30px;
   padding-top: 160px;
   padding-left: 15px;
